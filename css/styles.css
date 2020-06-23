@@ -216,5 +216,9 @@ footer{
     grid-row: 6;
     margin-bottom: 5%;
   }
+
+  .container-about {
+    grid-template-columns: 1fr;
+  }
 }
 /* ///////////// responsiveness end////////////// */

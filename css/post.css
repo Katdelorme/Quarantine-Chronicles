@@ -44,3 +44,18 @@
   background-size: 100% auto;
   height: 200px;
 }
+
+.container-about{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2%;
+  justify-content: center;
+}
+
+.container-about img{
+  width: 100%
+}
+
+.about-content p{
+  margin-bottom: 3%;
+}
