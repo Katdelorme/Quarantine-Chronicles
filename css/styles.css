@@ -29,6 +29,11 @@ nav{
   font-weight: 500;
   padding-bottom: 10px;
 }
+
+.nav-active{
+  border-bottom: solid 2px #000000;
+  padding-bottom: 10px;
+}
 /* ///////////// Navigation end ////////////// */
 
 /* ///////////// Home Page   ////////////// */
@@ -120,9 +125,6 @@ nav{
 }
 /* ///////////// Home Page end ////////////// */
 
-/* ///////////// Blog Page   ////////////// */
-/* ///////////// Blog Page end ////////////// */
-
 /* ///////////// Footer ////////////// */
 footer{
   background: #000000;
@@ -137,6 +139,7 @@ footer{
   .container{
     grid-gap: 3%;
   }
+
   .featured{
     grid-column-start: 1;
     grid-column-end: 3;
@@ -155,6 +158,11 @@ footer{
     padding: 5% 15%;
     width: 70%;
   }
+
+  .more-post-grid{
+    padding: 5%;
+    width: 90%;
+  }
 }
 
 /*Small devices (phone, X px and below)*/
@@ -162,20 +170,51 @@ footer{
   .aside {
     grid-gap: 10px;
   }
+
   .aside-inside{
     grid-template-columns: 35% 60%;
   }
-}
 
+  .container-post{
+    margin-bottom: 15%;
+  }
 
-/*Medium devices (tablets, 768px and below)*/
-@media (max-width: 768px) {
-}
+  .post-content{
+    grid-gap: 1%;
+  }
 
-/*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
-}
+  .post-photo-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    margin-top: 5%;
+  }
 
-@media (max-width: 365px) {
+  #more-post-1{
+    grid-row: 1;
+  }
+
+  #more-post-2{
+    grid-row: 3;
+  }
+
+  #more-post-3{
+    grid-row: 5;
+  }
+
+  #more-post-1-title{
+    grid-row: 2;
+    margin-bottom: 5%;
+  }
+
+  #more-post-2-title{
+    grid-row: 4;
+    margin-bottom: 5%;
+  }
+
+  #more-post-3-title{
+    grid-row: 6;
+    margin-bottom: 5%;
+  }
 }
 /* ///////////// responsiveness end////////////// */

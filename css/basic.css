@@ -40,7 +40,13 @@ h6{
   font-size: 0.8125em;
 }
 
-a{
+a, a:link, a:visited{
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover, a:active{
+  color: #000000;
   text-decoration: none;
 }
 
@@ -97,4 +103,8 @@ img{
 
 .align-self-flex-end{
   align-self: flex-end;
+}
+
+.uppercase{
+  text-transform: uppercase;
 }
