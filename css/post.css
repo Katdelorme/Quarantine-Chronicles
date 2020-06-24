@@ -59,7 +59,7 @@
 
 .container-about {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 2%;
   justify-content: center;
 }
@@ -70,4 +70,8 @@
 
 .about-content p {
   margin-bottom: 3%;
+}
+
+.heading span {
+  display: block;
 }

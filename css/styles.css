@@ -161,6 +161,10 @@ footer {
     padding: 5%;
     width: 90%;
   }
+
+  .container-about {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 /*Small devices (phone, X px and below)*/
@@ -215,8 +219,27 @@ footer {
     margin-bottom: 5%;
   }
 
-  .container-about {
+  .bio {
     grid-template-columns: 1fr;
+    margin-bottom: 25%;
+  }
+
+  .heading span {
+    display: inline;
+  }
+
+  header {
+    padding: 5% 5% 10% 5%;
+  }
+
+  nav {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .nav-link {
+    text-align: center;
+    width: 100%;
   }
 }
 /* ///////////// responsiveness end////////////// */
