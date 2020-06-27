@@ -65,8 +65,26 @@ img {
   display: block;
 }
 
+blockquote{
+  border-left: solid 4px #000000;
+  margin: 15px 0 0 20px;
+  padding: 0 0 0 8px;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-bold{
+  font-weight: 700;
+}
+
+.text-underline{
+  text-decoration: underline;
+}
+
+.text-italic{
+  font-style: italic;
 }
 
 .img-fluid {
