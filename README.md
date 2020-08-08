@@ -1,5 +1,5 @@
 # Quarantine Chronicles
-This repository is for the blog site design with the topic being blogging while being in quarantine due to COVID-19 Coronavirus.
+This repository is for the blog site design with the topic being blogging while being in quarantine due to COVID-19 Coronavirus. Read more about Quarantine Chronicle's conception and planning on my (http://blog.katherinedelorme.com/2020/css-grid-blog?utm_source=github&utm_medium=repo&utm_campaign=quarantine_chronicles_readme "blog").
 
 ## Getting Started
 You can download a zip file, fork this project, or clone with HTTPS.
